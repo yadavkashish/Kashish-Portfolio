@@ -7,6 +7,10 @@ if(a==""||b==""||c=="")
     alert("all fields are mendatory");
     return false;
 }
+else if(a!=NaN){
+    alert("enter alphabet");
+    return false;
+}
 else{
     true;
 }
