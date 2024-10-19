@@ -4,15 +4,13 @@ var b= document.getElementById("2").value;
 var c= document.getElementById("3").value;
 if(a==""||b==""||c=="")
 {
-    alert("all fields are mendatory");
-    return false;
-}
-else if(a!=NaN){
-    alert("enter alphabet");
+    alert("check if all fields are true");
     return false;
 }
 else{
     true;
 }
+
+
 
 }
